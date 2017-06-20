@@ -7,7 +7,9 @@
         <%= f.hidden_field :user_id, value: current_user.id %>
         <%= f.hidden_field :commentable_type, value: type.class.to_s %>
         <%= f.hidden_field :commentable_id, value: type.id %>
+      <div class="form-button">
         <%= f.submit %>
+      </div>
       <% end %>
     </div>
     <% else %>
@@ -17,7 +19,9 @@
         <%= f.hidden_field :user_id, value: current_user.id %>
         <%= f.hidden_field :commentable_type, value: type.class.to_s %>
         <%= f.hidden_field :commentable_id, value: type.id %>
+      <div class="form-button">
         <%= f.submit %>
+      </div>
       <% end %>
     </div>
     <% end %>
@@ -28,7 +32,9 @@
       <%= f.hidden_field :user_id, value: current_user.id %>
       <%= f.hidden_field :commentable_type, value: type.class.to_s %>
       <%= f.hidden_field :commentable_id, value: type.id %>
-      <%= f.submit %>
+      <div class="form-button">
+        <%= f.submit %>
+      </div>
     <% end %>
   </div>
   <% end %>

@@ -20,83 +20,35 @@ body {
   background-attachment: fixed;
   background-repeat: none;
   background-size: cover;
+  font-family: Raleway, Arial;
 }
 
 a{
   text-decoration: none;
-}
-.header{
-  height:7em;
+  outline: none;
 }
 
-.title{
-  letter-spacing: 0.02em;
-  font-family: Raleway, Arial;
-  -webkit-font-smoothing: antialiased;
+
+.form-button input{
+  margin:5px;
+  border:none;
+  background-color: #003366;
+  font-size: 12px;
+  width:120px;
+  height:40px;
   color:white;
-  width:13em;
-  margin:auto;
-  text-align: center;
-  font-size: 430%;
-
+  border-radius: 7px;
+  outline:none;
 }
 
-
-.logs{
-  width:12em;
-  float: right;
-  margin:-55px 30px 0px 0px;
-  text-align:center;
-}
-.logs p {
-  font-family: Raleway, Arial;
-  color:lightgrey;
-  display: inline-block;
-  padding-right:10px;
-  font-size:120%;
-}
-.logs a {
-  font-family: Raleway, Arial;
-  color:lightgrey;
-  display: inline-block;
-  font-size:120%;
-  text-decoration: none
+.review-form{
+  margin-top: 10px;
+  border:none;
 }
 
-.home a{
-  font-family: Raleway, Arial;
-  float:left;
-  text-decoration: none;
-  color:lightgrey;
-  font-size:160%;
-  margin-top:-44px;
-  margin-left: 4.4em;
-}
 
-.categories_list{
-  width:70%;
-  margin:auto;
-  text-align:center;
-}
-.categories_list p{
-  font-family: Raleway, Arial;
-  display: inline-block;
-  font-size:300%;
-  width:5em;
-  height:1.5em;
-  background-color:white;
-  padding-top:15px;
-  opacity: .7;
-  margin-left:1em;
-  border-radius: 10px;
-}
-.categories_list a{
-  color: black;
-  text-decoration: none;
-}
 
 .body-wrapper{
-  font-family: Raleway, Arial;
   width:70%;
   margin:auto;
   background-color:white;
@@ -114,7 +66,6 @@ a{
 }
 
 .minor-title {
-  font-family: Raleway, Arial;
   text-align: center;
 }
 
@@ -149,6 +100,7 @@ text-decoration: none;
   border-width:1px;
 }
 
+
 .review-display{
   width:55em;
   margin:auto;
@@ -158,17 +110,6 @@ text-decoration: none;
   width:20em;
 }
 
-.lnew_user{
-  background-color: red;
-}
-
-.field{
-  width:20em;
-}
-/*.rating > span:hover:before {
-   content: "\2605";
-   position: absolute;
-}*/
 
 .created_at{
   font-size:75%;
@@ -184,10 +125,6 @@ text-decoration: none;
   text-align:center;
 }
 
-/*.login_signup h2{
-  width:6em;
-  margin:auto;
-}*/
 
 .log_title{
   width:7em;
@@ -220,6 +157,8 @@ text-decoration: none;
 .star-button:hover{
   color:gold;
 }
+
+
 
 .rating-stars{
   width:8em;
@@ -263,4 +202,8 @@ text-decoration: none;
   width:20em;
   display: inline-block;
 
+}
+
+.test{
+  font-size: 100px;
 }

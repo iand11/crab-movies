@@ -1,9 +1,13 @@
 <% if user_signed_in? && current_user.reviewer? %>
-  <%= form_for([type, type.reviews.build], remote: true) do |f| %>
-    <%= f.text_area :body, size:"100x3" %><br>
-    <%= f.hidden_field :user_id, value: current_user.id %>
-    <%= f.hidden_field :reviewable_type, value: session[:page_type] %>
-    <%= f.hidden_field :reviewable_id, value: session[:page_id] %>
-    <%= f.submit %>
-  <% end %>
+  <div class="review-form">
+    <%= form_for([type, type.reviews.build], remote: true) do |f| %>
+      <%= f.text_area :body, size:"100x3" %><br>
+      <%= f.hidden_field :user_id, value: current_user.id %>
+      <%= f.hidden_field :reviewable_type, value: session[:page_type] %>
+      <%= f.hidden_field :reviewable_id, value: session[:page_id] %>
+      <div class="form-button review">
+        <%= f.submit %>
+      </div>
+    <% end %>
+  </div> 
 <% end %>

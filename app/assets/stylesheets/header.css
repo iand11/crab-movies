@@ -10,7 +10,6 @@
   margin:auto;
   text-align: center;
   font-size: 430%;
-
 }
 
 
@@ -29,7 +28,7 @@
   color:white;
   display: inline-block;
   font-size:120%;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .home a{
@@ -39,3 +38,4 @@
   font-size:160%;
   margin-top:-58px;
   margin-left: 4.4em;
+}

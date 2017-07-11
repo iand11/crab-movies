@@ -1,62 +1,47 @@
-# PaperClip
+Crab-Movies
+===
 
-This is a web application that is designed to allow people to rate and review films. By registering with our site, we permit users to rate and review movie titles, actors and actresses as well as comment. The goal of this application is to help people traverse their movie decisions by providing a platform that will foster unbiased opinions. 
+## Description
+
+Crab Movies is a Ruby on Rails application that allows users to obtain information regarding films as well as rate and review movies and actors. Data was obtained from IMDB.
+
+## Interface
+
+<p align="center">
+<img src="/screenshots/index.png">
+Upon opening the web application, users are able to see categories of movies.
+</p>
+
+<p align="center">
+<img src="/screenshots/movies-index.png">
+  After selecting a category, users are able to see movies that belong to the category.  
+</p>
+
+<p align="center">
+<img src="/screenshots/movie-show1.png">
+<img src="/screenshots/movie-show2.png">
+Users are able to obtain information regarding movies including plot summaries, actors, and even view a trailer belonging to the movie (hosted on AWS). Registered users can rate movies as well as reviews, and users who are authorized reviewers are able to write reviews on movies.
+</p>
+
+<p align="center">
+<img src="/screenshots/actor-show.png">
+Users are able to view actors based on their movies, and registered users can leave ratings. Reviews of actors can be left by authorized reviewers.
+</p>
+
+## The Team
+
+[Patrick Tangphao](https://github.com/ptangphao)
+
+[Earl Sabal](https://github.com/earlsabal)
+
+[Ian Driscoll](https://github.com/iand11)
+
+[Ilyin Ganevv](https://github.com/IliyanGanevv)
+
+[Gina Benavidez](https://github.com/gbenavid)
+
 
 ### Dependencies for local development:
 
 * Ruby (2.3.1)
 * Rails (4.2)
-
-## Running the tests
-
-We have extensivly tested this repository to demonstrate the intent of our functionality and better articultae our motives, as well as track the feasibility of our app. 
-
-### A break down of our tests
-
-In the terminal
-```
-bundle
-be rake db:create
-be rake db:migrate
-be rspec
-```
-
-All tests should pass
-Or you can run:
-
-```
-be rspec ./spec/models/
-```
-...to see all specs related to our models.
-Or run 
-
-```
-be rspec ./spec/mailers/
-```
-...to see all specs related to our mailers
-
-We also have tests for our `controllers`, `helpers` and `routes`.
-Thanks for testing us!
-
-## Contributing
-
-Please [read](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-
-## Authors
-
-**Gina Benavidez** - [*Front End*](https://github.com/gbenavid)
-
-**Ian Driscoll** - [*Front End*](https://github.com/iand11)
-
-**Earl Sabal** - [*Back End*](https://github.com/earlsabal)
-
-**Patrick Tangphao** - [*Back End*](https://github.com/ptangphao)
-
-**Iliyan Ganevv** - [*Full Stack*](https://github.com/IliyanGanevv)
-
-See also the [list of](https://github.com/earlsabal/paperclip/graphs/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Thank you to Eli Berger, who helped communicate the desiered functionality of this project and to James Bomotti who gave us the oppertunity to build beautiful and meaningful things.

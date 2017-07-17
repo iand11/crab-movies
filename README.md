@@ -40,6 +40,8 @@ Users are able to view actors based on their movies, and registered users can le
 
 [Gina Benavidez](https://github.com/gbenavid)
 
+## Deployment
+http://crabmovies.herokuapp.com/
 
 ### Dependencies for local development:
 
